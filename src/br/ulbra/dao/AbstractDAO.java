@@ -34,7 +34,7 @@ private static final String DRIVER = "com.mysql.jdbc.Driver"; //Driver JDBC
             return null;
         }
     }
-
+//Nesta nova versão não há necessidade de fazer os fechamentos das conexões - fica o exemplo de como isso funciona
     public static void closeConnection(Connection con) {
         try {
             if (con != null) {
